@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HealthMonitoringSystem</string>
+    <string-array name="value">
+        <item>Patient</item>
+        <item>Doctor</item>
+    </string-array>
+</resources>

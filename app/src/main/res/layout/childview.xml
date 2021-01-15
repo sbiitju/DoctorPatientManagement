@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#5CE0F2F1"
+    android:gravity="center"
+    android:layout_marginVertical="10dp"
+    android:layout_marginHorizontal="10dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/doctorname"
+        android:textStyle="bold"
+        android:background="#ffffff"
+        android:layout_marginHorizontal="10dp"
+        android:textColor="#00C853"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/speciality"
+        android:background="#ffffff"
+        android:layout_marginVertical="5dp"
+        android:layout_marginHorizontal="10dp"
+        android:textColor="#AEEA00"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Make Appoinment"
+        android:id="@+id/makeappoinment"
+        />
+</LinearLayout>
+</androidx.cardview.widget.CardView>

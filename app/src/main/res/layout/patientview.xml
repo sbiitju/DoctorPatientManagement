@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="20dp"
+    android:layout_height="250dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:id="@+id/patientnameshow"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textSize="20dp"
+            android:id="@+id/patientsymptom"
+            android:gravity="center"
+            />
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:text="Give Tretment"
+            android:id="@+id/givetrtment"
+            />
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

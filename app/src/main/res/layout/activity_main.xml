@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#E0F2F1"
+    android:layout_marginVertical="150dp"
+    android:layout_marginHorizontal="40dp"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:id="@+id/email"
+    android:background="#ffffff"
+    android:hint="Email"
+    android:layout_marginHorizontal="10dp"
+    android:gravity="center"
+    android:inputType="textEmailAddress"
+    />
+    <EditText
+        android:background="#ffffff"
+        android:gravity="center"
+        android:layout_marginHorizontal="10dp"
+        android:hint="Password"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/password"
+        android:inputType="textWebPassword"
+        />
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:weightSum="2"
+        >
+        <Button
+            android:layout_marginHorizontal="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Sign In"
+            android:textAllCaps="false"
+            android:onClick="SignIn"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="10dp"
+            android:onClick="SignUp"
+            android:text="Create Account"
+            />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "975444931930",
+    "firebase_url": "https://creativeapp-18a0a.firebaseio.com",
+    "project_id": "creativeapp-18a0a",
+    "storage_bucket": "creativeapp-18a0a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975444931930:android:a4deb434cf15fb6a",
+        "android_client_info": {
+          "package_name": "com.example.creativeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "975444931930-rd5ehoo80rh5cns6pgji0kiq1ktrgjsf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.creativeapp",
+            "certificate_hash": "7a05582110cb04daa13c94c23dd291a85285f754"
+          }
+        },
+        {
+          "client_id": "975444931930-fsde07b0mruo0dve6eju7e7lknb92gje.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8Cc6xcGW8O3_IzkJVkiuic9FrkLMKazE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "975444931930-fsde07b0mruo0dve6eju7e7lknb92gje.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975444931930:android:168e6238a68092bdd96f63",
+        "android_client_info": {
+          "package_name": "finddonar.shahinbashar.xyz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "975444931930-fsde07b0mruo0dve6eju7e7lknb92gje.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8Cc6xcGW8O3_IzkJVkiuic9FrkLMKazE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "975444931930-fsde07b0mruo0dve6eju7e7lknb92gje.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975444931930:android:519eb3df5eb1e06bd96f63",
+        "android_client_info": {
+          "package_name": "health.monitoring.system"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "975444931930-fsde07b0mruo0dve6eju7e7lknb92gje.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8Cc6xcGW8O3_IzkJVkiuic9FrkLMKazE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "975444931930-fsde07b0mruo0dve6eju7e7lknb92gje.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
